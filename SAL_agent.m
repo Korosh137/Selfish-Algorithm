@@ -27,8 +27,6 @@ Out2 = zeros(Size, 1) ; % Current payoff of agents
 
 D_C_decision = zeros(Size, 1) ; % D (defection) as 1 and C (cooperation) as 2
 
-D_C_decisionColor = zeros(Trial, Size) ; % Assigns color for the nodes at each trial
-
 P_RL = zeros(Size, Size, 2) ; % For agent m paired with agent n the P_RL(m, n, 1) and P_RL(m, n, 2) are the propensites of decison D and C, respectively
 
 % Initial conditions
